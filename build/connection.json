@@ -1,0 +1,5 @@
+{
+    "production": "mongodb://localhost:27017/production",
+    "development": "mongodb://localhost:27017/development",
+    "test": "mongodb://localhost:27017/test"
+}

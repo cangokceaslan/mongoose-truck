@@ -1,0 +1,43 @@
+{
+  "name": "mongoose-truck",
+  "version": "1.0.0",
+  "description": "Node.js library for handling CRUD operations for different mongodb databases.",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "npx @babel/node",
+    "build": "npx babel src --out-dir build --copy-files --ignore '**/*.test.js'",
+    "dev": "npx babel src --out-dir build --copy-files --ignore '**/*.test.js' --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cangokceaslan/mongoose-truck.git"
+  },
+  "keywords": [
+    "mongodb",
+    "mongoose",
+    "crud",
+    "mongodb",
+    "crud",
+    "mongoose",
+    "crud"
+  ],
+  "private": false,
+  "author": "Can Gökçeaslan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cangokceaslan/mongoose-truck/issues"
+  },
+  "homepage": "https://github.com/cangokceaslan/mongoose-truck#readme",
+  "dependencies": {
+    "mongoose": "^6.1.6"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.16.8",
+    "@babel/core": "^7.16.7",
+    "@babel/node": "^7.16.8",
+    "@babel/preset-env": "^7.16.8",
+    "@babel/register": "^7.16.9"
+  }
+}
