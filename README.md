@@ -14,8 +14,8 @@ mongoose-truck is a Node.js package for handling with data transaction between d
 
 #### .loadFrom() object:
 ```javascript
-model       // preferred model name
-schema      // Schema for the collection - reading the data
+model:       // preferred model name
+schema:      // Schema for the collection - reading the data
 query:      // Query for searching over the collection
 populate:   // Relation with other collections - Same with .populate() method
 skip:       // skipping N values in the collection - same with .skip() method
