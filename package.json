@@ -1,6 +1,6 @@
 {
-  "name": "@cangokceaslan/mongoose-truck",
-  "version": "1.1.1",
+  "name": "mongoose-truck",
+  "version": "1.5.7",
   "description": "Node.js library for handling CRUD operations for different mongodb databases.",
   "main": "index.js",
   "type": "commonjs",
@@ -11,7 +11,9 @@
     "minor": "npm version minor --force",
     "patch": "npm version patch --force",
     "major": "npm version major --force",
-    "publish": "npm publish --access public --force",
+    "publish:npm": "npm pkg set name=mongoose-truck && npm publish --access public --registry https://registry.npmjs.org --force",
+    "publish:github": "npm pkg set name=@cangokceaslan/mongoose-truck && npm publish --access public --force --registry https://npm.pkg.github.com/@cangokceaslan/mongoose-truck && npm pkg set npm pkg set name=mongoose-truck",
+    "publish": "npm run publish:npm && npm run publish:github",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -19,8 +21,9 @@
     "url": "git+https://github.com/cangokceaslan/mongoose-truck.git"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
+    "access": "public"
   },
+  "publisher": "Can Gökçeaslan",
   "keywords": [
     "mongodb",
     "mongoose",
