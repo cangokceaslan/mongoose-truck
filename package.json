@@ -1,6 +1,6 @@
 {
   "name": "mongoose-truck",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Node.js library for handling CRUD operations for different mongodb databases.",
   "main": "index.js",
   "type": "commonjs",
