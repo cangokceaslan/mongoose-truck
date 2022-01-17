@@ -1,6 +1,6 @@
 {
   "name": "mongoose-truck",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Node.js library for handling CRUD operations for different mongodb databases.",
   "main": "index.js",
   "type": "commonjs",
@@ -13,6 +13,9 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/cangokceaslan/mongoose-truck.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
   },
   "keywords": [
     "mongodb",
