@@ -8,6 +8,10 @@
     "start": "npx @babel/node",
     "build": "npx babel src --out-dir build --copy-files --ignore '**/*.test.js'",
     "dev": "npx babel src --out-dir build --copy-files --ignore '**/*.test.js' --watch",
+    "minor": "npm version minor --force",
+    "patch": "npm version patch --force",
+    "major": "npm version major --force",
+    "publish": "npm publish --access public",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
