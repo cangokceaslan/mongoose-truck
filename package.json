@@ -1,5 +1,5 @@
 {
-  "name": "mongoose-truck",
+  "name": "@cangokceaslan/mongoose-truck",
   "version": "1.0.2",
   "description": "Node.js library for handling CRUD operations for different mongodb databases.",
   "main": "index.js",
